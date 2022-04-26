@@ -92,7 +92,7 @@ button {
   /* Set black background color, white text and some padding */
 
 footer {
-    background-image: url(../resources/images/footer.jpg);
+    background-image: url(./resources/images/footer.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     color: black;
