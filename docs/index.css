@@ -1,15 +1,15 @@
-/* FONTS 
+/* FONTS
 font-family: 'Exo 2', sans-serif;
 font-family: 'Monoton', cursive;
 font-family: 'Sue Ellen Francisco', cursive;
-font-family: 'Water Brush', cursive; 
+font-family: 'Water Brush', cursive;
 */
 
 h1, h2 {
     font-family: 'Exo 2', sans-serif;
 }
 
-/* Removes the navbar's default margin-bottom and rounded borders */ 
+/* Removes the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -32,7 +32,7 @@ h1, h2 {
     height: auto;
     padding: 15px;
   }
-  .row.content {height:auto;} 
+  .row.content {height:auto;}
 }
 
  img {
@@ -54,9 +54,9 @@ button {
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
-  
+
   button:hover {background-color: #999}
-  
+
   button:active {
     background-color: #999;
     box-shadow: 0 5px #666;
@@ -68,8 +68,8 @@ button {
   }
 
   h1 {
-    font-family: 'Water Brush', cursive; 
-    font-size: 5rem; 
+    font-family: 'Water Brush', cursive;
+    font-size: 5rem;
     font-weight: 700;
   }
 
@@ -91,7 +91,7 @@ button {
   /* Set black background color, white text and some padding */
 
 footer {
-    background-image: url(../resources/images/footer.jpg);
+    background-image: url(./resources/images/footer.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     color: black;
