@@ -7,41 +7,37 @@ font-family: 'Water Brush', cursive;
 
 h1, h2 {
     font-family: 'Exo 2', sans-serif;
-}
-
-/* Removes the navbar's default margin-bottom and rounded borders */
-.navbar {
+  }
+  
+  /* Removes the navbar's default margin-bottom and rounded borders */
+  .navbar {
   margin-bottom: 0;
   border-radius: 0;
-}
-
-/* Sets height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 450px}
-
-/* Set gray background color and 100% height */
-.sidenav {
+  }
+  
+  /* Sets height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {
+    height: 100vh;
+  }
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
   padding-top: 20px;
   background-color: #f1f1f1;
-  height: 80vh;
-}
-
-
-/* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
+  height: 100vh;
+  }
+  
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
   .sidenav {
-    height: auto;
+    height: 100vh;
     padding: 15px;
   }
   .row.content {height:auto;}
-}
-
- img {
-    margin-top: 3rem;
-    flex-direction: column;
-    width: 100%;
-}
-
-button {
+  }
+  
+  button {
     padding: 15px 25px;
     margin: 2rem;
     font-size: 24px;
@@ -54,51 +50,53 @@ button {
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
-
+  
   button:hover {background-color: #999}
-
+  
   button:active {
     background-color: #999;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-
+  
   .well {
       visibility: hidden;
   }
-
+  
   h1 {
     font-family: 'Water Brush', cursive;
     font-size: 5rem;
     font-weight: 700;
   }
-
+  
   #countdown {
+    height: 100vh;
     padding-top: 12rem;
-}
-
-#countdown h4 {
+  }
+  
+  #countdown h4 {
     font-size: 3rem;
     font-weight: 600;
     font-family: 'Monoton', cursive;
-}
-
-#countdown p {
+  }
+  
+  #countdown p {
     font-size: 2.5rem;
-}
-
-
+  }
+  
+  
   /* Set black background color, white text and some padding */
-
-footer {
-    background-image: url(./resources/images/footer.jpg);
+  
+  footer {
+    background-image: url(../resources/images/footer.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     color: black;
     float: left;
     padding: 1.5rem;
   }
-
+  
   footer p {
       padding: 3rem;
   }
+  
